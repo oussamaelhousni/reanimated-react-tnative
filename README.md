@@ -9,3 +9,6 @@ Reanimated is a React Native library that empowers developers to create smooth a
 ### 2 - useAnimatedStyle
 
 - useAnimatedStyle is a React Native Reanimated hook that allows you to define dynamic styles for components based on animated values, enabling smoother animations with better performance by handling style updates on the native side.
+
+* qst 1 : why we do not use shared values styles directly in the component ?
+* answer : The reason we don't directly use style={{ translateX: translateX.value }} in React Native for animations is because traditional styles in React Native are processed on the JavaScript thread, which can lead to performance issues, especially when dealing with complex animations.
