@@ -56,5 +56,8 @@ const styles = StyleSheet.create({
 });
 
 export default MyComponent;
-
 ```
+
+### 3 - withSpring
+
+- withSpring" in React Native Reanimated is a function used to create spring animations with specified damping and stiffness parameters.
